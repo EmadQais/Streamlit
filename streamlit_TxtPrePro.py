@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+import json,logging
+import scrapy
+from scrapy.crawler import CrawlerProcess
 
 #text
 st.title("My first App")
